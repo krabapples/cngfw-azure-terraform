@@ -18,7 +18,7 @@ variable "client_secret" {
   type = string
 }
 
-variable "app_ip" {
+variable "app_id" {
   type = string
 }
 
