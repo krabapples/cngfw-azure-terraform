@@ -17,3 +17,15 @@ variable "panorama-string" {
 variable "client_secret" {
   type = string
 }
+
+variable "app_ip" {
+  type = string
+}
+
+variable "tenant_id" {
+  type = string
+}
+
+variable "subscription_id" {
+  type = string
+}
