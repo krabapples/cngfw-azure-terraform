@@ -13,3 +13,7 @@ variable "region2" {
 variable "panorama-string" {
   type = string
 }
+
+variable "client_secret" {
+  type = string
+}
