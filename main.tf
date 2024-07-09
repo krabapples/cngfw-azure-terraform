@@ -6,8 +6,9 @@ provider "azurerm" {
   client_secret     = var.client_secret
 }
 
-data "azurerm_resource_group" "rg" {
-  name = var.rg
+resource "azurerm_resource_group" "rg" {
+  name     = "kv-rg"
+  location = "West EU"
 }
 
 resource "azurerm_public_ip" "cngfw-pip-westeurope" {
