@@ -8,7 +8,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
   name     = "kv-rg"
-  location = "West EU"
+  location = "westeurope"
 }
 
 resource "azurerm_public_ip" "cngfw-pip-westeurope" {
